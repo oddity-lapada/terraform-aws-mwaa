@@ -88,10 +88,6 @@ We highly recommend that in your code you pin the version to the exact version y
 using so that your infrastructure remains stable, and update versions in a
 systematic way so that they do not catch you by surprise.
 
-Also, because of a bug in the Terraform registry ([hashicorp/terraform#21417](https://github.com/hashicorp/terraform/issues/21417)),
-the registry shows many of our inputs as required when in fact they are optional.
-The table below correctly indicates which inputs are required.
-
 
 For a complete example, see [examples/complete](examples/complete).
 
@@ -358,7 +354,7 @@ In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
 ## Copyrights
 
-Copyright © 2022-2022 [Cloud Posse, LLC](https://cloudposse.com)
+Copyright © 2022-2023 [Cloud Posse, LLC](https://cloudposse.com)
 
 
 
@@ -429,7 +425,7 @@ Check out [our other projects][github], [follow us on twitter][twitter], [apply 
 
 [![README Footer][readme_footer_img]][readme_footer_link]
 [![Beacon][beacon]][website]
-
+<!-- markdownlint-disable -->
   [logo]: https://cloudposse.com/logo-300x69.svg
   [docs]: https://cpco.io/docs?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-aws-mwaa&utm_content=docs
   [website]: https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-aws-mwaa&utm_content=website
@@ -460,3 +456,4 @@ Check out [our other projects][github], [follow us on twitter][twitter], [apply 
   [share_googleplus]: https://plus.google.com/share?url=https://github.com/cloudposse/terraform-aws-mwaa
   [share_email]: mailto:?subject=terraform-aws-mwaa&body=https://github.com/cloudposse/terraform-aws-mwaa
   [beacon]: https://ga-beacon.cloudposse.com/UA-76589703-4/cloudposse/terraform-aws-mwaa?pixel&cs=github&cm=readme&an=terraform-aws-mwaa
+<!-- markdownlint-restore -->
